@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda Drugs by J60 & Mr Crowley</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <div id="pincodeContainer" class="hidden">
+      <div id="pincodeScreen" type="password"></div>
+      <div id="pincodeButtons"></div>
+    </div>
+    <div id="testerContainer" class="hidden">
+      <div id="testerHeader">
+        <div id="headerButtons">
+          <button id="closeTester" class="testerHeaderButtons" onclick = "closeTester()"></button>
+          <button id="minimiseTester" class="testerHeaderButtons" onclick = "toggleMinimiseTester()"></button>
+          <button id="maximiseTester" class="testerHeaderButtons" onclick = "toggleTesterSize()"></button>
+        </div>
+      </div>
+      <div id="testScreen"></div>
+      <div id="testOptions"></div>
+    </div>
+  </div>
+</body>
+</html>
